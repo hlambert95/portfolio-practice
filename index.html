@@ -8,19 +8,17 @@
         
         <nav><!-- Navigation Bar -->
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
         </nav>
 
         <main><!-- Main content-->
             <section id="about"><!-- About section-->
-                <h2>Hi, I'm Harrison</h2>
+                
                 <article id="about-info">
-                    <figure id="profile-img">
-                        <img src="./Images/profile-picture.jpeg" alt="Harrison Lambert Profile Picture">
-                    </figure>
+                    <h1>Hi, I'm Harrison</h1>    
                     <p>
                         I'm currently studying a Bachelor of Software 
                         Engineering, majoring in Data Science at the
@@ -32,13 +30,14 @@
                         writing, producing and performing. I have also had the privilege
                         of working in the operations teams for Apple, and then Tesla. 
                         I believe that this experience gives me the ability to solve
-                        problems from a creative andT professional perspective. 
+                        problems from a creative and professional perspective. 
                         <br><br>
                         I love learning, I love solving problems to make people's lives
                         easier, and I love to create. Thanks for visiting, and please get
                         in touch if you'd like to chat!
                     </p>
                 </article>
+                <img src="./Images/profile-picture.jpeg" alt="Harrison Lambert Profile Picture" id="profile-img">
 
             </section>
 
@@ -46,128 +45,197 @@
                 <h2>Projects</h2>
 
                 <article class="normal-direction">
-                    <h3>Project 1</h3>
-                    <figure class="project-img">
-                        <img src="./Images/wireframe-img.png" alt="Project 1">
-                    </figure>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Cursus mattis molestie a iaculis at erat
-                        pellentesque. Aenean sed adipiscing diam donec
-                        adipiscing tristique risus nec feugiat.
-                    </p>
-                    <aside>
-                        <h4>Skills</h4>
-                        <ul class="skills-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
+                    <img src="./Images/wireframe-img.png" alt="Project 1" class="project-img">
+                    <aside class="project-aside">
+                        <h3>Project 1</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.<br><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.
+                        </p>
+                        <div class="skills-section">
+                            <h3>Skills:</h3>
+                            <ul class="skills-list">
+                                <li><img src="./Logos/html-5-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/css-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/javascript-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/react-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/sql-database-generic-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/python-svgrepo-com.svg" class="skills-img"></li>
+                            </ul>
+                        </div>
                     </aside>
                 </article>
 
                 <article class="reverse-direction">
-                    <h3>Project 2</h3>
-                    <figure class="project-img">
-                        <img src="./Images/wireframe-img.png" alt="Project 2">
-                    </figure>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Cursus mattis molestie a iaculis at erat
-                        pellentesque. Aenean sed adipiscing diam donec
-                        adipiscing tristique risus nec feugiat.
-                    </p>
-                    <aside>
-                        <h4>Skills</h4>
-                        <ul class="skills-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
+                    <img src="./Images/wireframe-img.png" alt="Project 2" class="project-img">
+                    <aside class="project-aside">
+                        <h3>Project 2</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.<br><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.
+                        </p>
+                        <div class="skills-section">
+                            <h3>Skills:</h3>
+                            <ul class="skills-list">
+                                <li><img src="./Logos/html-5-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/css-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/javascript-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/react-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/sql-database-generic-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/python-svgrepo-com.svg" class="skills-img"></li>
+                            </ul>
+                        </div>
                     </aside>
                 </article>
 
                 <article class="normal-direction">
-                    <h3>Project 3</h3>
-                    <figure class="project-img">
-                        <img src="./Images/wireframe-img.png" alt="Project 3">
-                    </figure>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Cursus mattis molestie a iaculis at erat
-                        pellentesque. Aenean sed adipiscing diam donec
-                        adipiscing tristique risus nec feugiat.
-                    </p>
-                    <aside>
-                        <h4>Skills</h4>
-                        <ul class="skills-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
+                    <img src="./Images/wireframe-img.png" alt="Project 5" class="project-img">
+                    <aside class="project-aside">
+                        <h3>Project 3</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.<br><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.
+                        </p>
+                        <div class="skills-section">
+                            <h3>Skills:</h3>
+                            <ul class="skills-list">
+                                <li><img src="./Logos/html-5-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/css-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/javascript-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/react-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/sql-database-generic-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/python-svgrepo-com.svg" class="skills-img"></li>
+                            </ul>
+                        </div>
                     </aside>
                 </article>
-                
+
                 <article class="reverse-direction">
-                    <h3>Project 4</h3>
-                    <figure class="project-img">
-                        <img src="./Images/wireframe-img.png" alt="Project 4">
-                    </figure>
-                    <p>
-                        This is a project that I worked on in my spare time. It is a
-                        website that I created for a friend who is a photographer. The
-                        website is a simple, yet elegant design that showcases the
-                        photographer's work. The website is fully responsive and
-                        works on all devices.
-                    </p>
-                    <aside>
-                        <h4>Skills</h4>
-                        <ul class="skills-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
+                    <img src="./Images/wireframe-img.png" alt="Project 4" class="project-img">
+                    <aside class="project-aside">
+                        <h3>Project 4</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.<br><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.
+                        </p>
+                        <div class="skills-section">
+                            <h3>Skills:</h3>
+                            <ul class="skills-list">
+                                <li><img src="./Logos/html-5-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/css-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/javascript-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/react-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/sql-database-generic-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/python-svgrepo-com.svg" class="skills-img"></li>
+                            </ul>
+                        </div>
                     </aside>
                 </article>
 
                 <article class="normal-direction">
-                    <h3>Project 5</h3>
-                    <figure class="project-img">
-                        <img src="./Images/wireframe-img.png" alt="Project 5">
-                    </figure>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Cursus mattis molestie a iaculis at erat
-                        pellentesque. Aenean sed adipiscing diam donec
-                        adipiscing tristique risus nec feugiat.
-                    </p>
-                    <aside>
-                        <h4>Skills:</h4>
-                        <ul class="skills-list">
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                        </ul>
+                    <img src="./Images/wireframe-img.png" alt="Project " class="project-img">
+                    <aside class="project-aside">
+                        <h3>Project 5</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.<br><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.
+                        </p>
+                        <div class="skills-section">
+                            <h3>Skills:</h3>
+                            <ul class="skills-list">
+                                <li><img src="./Logos/html-5-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/css-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/javascript-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/react-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/sql-database-generic-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/python-svgrepo-com.svg" class="skills-img"></li>
+                            </ul>
+                        </div>
                     </aside>
                 </article>
-            </section>
+
+                <article class="reverse-direction">
+                    <img src="./Images/wireframe-img.png" alt="Project 6" class="project-img">
+                    <aside class="project-aside">
+                        <h3>Project 6</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.<br><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua. Cursus mattis molestie a iaculis at erat
+                            pellentesque. Aenean sed adipiscing diam donec
+                            adipiscing tristique risus nec feugiat.
+                        </p>
+                        <div class="skills-section">
+                            <h3>Skills:</h3>
+                            <ul class="skills-list">
+                                <li><img src="./Logos/html-5-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/css-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/javascript-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/react-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/sql-database-generic-svgrepo-com.svg" class="skills-img"></li>
+                                <li><img src="./Logos/python-svgrepo-com.svg" class="skills-img"></li>
+                            </ul>
+                        </div>
+                    </aside>
+                </article>
 
             <section id="contact">
                 <h2>Contact</h2>
-                <article>                    
+                <article id="contact-article">                    
                     <p>
                         Messages are always open for feedback, collaboration,
                         or if you just want to say hi!
                     </p>
                     <ul id="contact-list">
-                        <li><a href="www.github.com" target="_blank">GitHub</a></li>
-                        <li><a href="www.linkedin.com" target="_blank">LinkedIn</a></li>
-                        <li><a href="www.instagram.com" target="_blank">Instagram</a></li>
-                        <li><a href="www.tiktok.com" target="_blank">TikTok</a></li>
+                        <li><img src="./Logos/LI-In-Bug.png" class="contact-img"></li>
+                        <li><img src="./Logos/github-mark.svg" class="contact-img"></li>
+                        <li><img src="./Logos/TikTok_Icon_Black_Square.png" class="contact-img"></li>
+                        <li><img src="./Logos/Instagram_Glyph_Gradient.svg" class="contact-img"></li>
                     </ul>
                 </article>
             </section>
